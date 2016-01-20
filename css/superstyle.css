@@ -11,7 +11,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  display: table;
+  display: flex;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   font-size: 100%;
 }
