@@ -1,0 +1,50 @@
+/*====================================
+====reset css to my prefer defaulst===
+====================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 100%;
+}
+
+a:link, a:active, a:visited { text-decoration: none; }
+a:hover {color: #999; text-decoration: none; }
+
+h1 {}
+h1 a {}
+h1 a:hover {}
+
+h2 {}
+h2 a {}
+h2 a:hover {}
+
+h3 { vertical-align: middle;}
+h3 a {}
+h3 a:hover {}
+
+.superLeft { float:left; }
+.superRight { float:right; }
+.superClear { clear: both;}
+
+/*=====end reset to def=====*/
+
+/*===== all my css for index.html =====*/
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    display: inline-block;
+    text-align: center;
+}
