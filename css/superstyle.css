@@ -42,10 +42,5 @@ h3 a:hover {}
   min-height: 100%;
   min-height: 100vh;
   display:flex;
-  align-items: center;;
-}
-
-.contactInfo {
-  border:1px solid red;
-  max-width: 500px;
+  align-items: center;
 }
