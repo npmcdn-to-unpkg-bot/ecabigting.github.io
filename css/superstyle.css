@@ -38,13 +38,14 @@ h3 a:hover {}
 /*=====end reset to def=====*/
 
 /*===== all my css for index.html =====*/
-.container {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+.bcont {
+  min-height: 100%;
+  min-height: 100vh;
+  display:flex;
+  align-items: center;;
 }
 
-.content {
-    display: inline-block;
-    text-align: center;
+.contactInfo {
+  border:1px solid red;
+  max-width: 500px;
 }
