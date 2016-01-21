@@ -14,25 +14,22 @@
 .section {
   text-align: center;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
-#section1{
+#pageUno {
   background-image: url('../img/sec1.jpg');
 }
 
-#section2 {
+#pageDos {
   background-image: url('../img/sec2.jpg');
-
 }
 
-#section3 {
+#pageTres {
   background-image: url('../img/sec3.jpg');
-
 }
 
-#section4 {
+#pageQuatro {
   background-image: url('../img/sec4.jpg');
 }
 
