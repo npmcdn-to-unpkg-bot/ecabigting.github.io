@@ -3,43 +3,86 @@
 <head>
   <title>Software Developer - ECABIGTING
   </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="web developer, php developer, server administrator, sql dba, software developer, software engineer, .net developer, .net programmer, portfolio, eric, thomas, d., cabigting, eric thomas, eric thomas d, eric thomas d. cabigting, online web site, online portfolio, online content">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="web developer, php developer, server administrator, web designer, sql dba, software developer, software engineer, .net developer, .net programmer, portfolio, eric, thomas, d., cabigting, eric thomas, eric thomas d, eric thomas d. cabigting, online web site, online portfolio, online content">
   <meta name="authoer" content="Eric Thomas D. Cabigting">
   <meta name="description" content="Eric Thomas D. Cabigting software developer of five years. This is my online portfolio. I work as .net developer for different companies, as well as a software engineer in the process. I mainly work with web applications, and now focusing on mobile apps.">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- style sheets -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/superreset.css">
   <link rel="stylesheet" href="css/superstyle.css">
+  <!-- end of style sheets -->
 </head>
 <body>
-<div class="bcont">
-  <div class="container center-block">
-    <div class="row center-block text-center">
-        <div class="col-xs-12"><img src="img/super_avatar.png"/ class="img-circle img-responsive center-block" style="height:30%;width:30%;" ></div>
-        <div class="col-xs-12"><h3>Eric Thomas D. Cabigting</h3></div>
-    </div>
-    <div class="row center-block text-center">
-        <div class="col-xs-12 col-md-4">
-          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-          971 56 440 4952
+  <div id="header">
+      <!-- start of header div  -->
+          <nav role="navigation" class="navbar">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </button>
+              <span class="navbar-brand">ecabigting</span>
           </div>
-        <div class="col-xs-12 col-md-4">
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-          <a href="mailto:ericcabigting@outlook.com?Subject=Suuuuper" target="_blank">
-          ericcabigting@outlook.com
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-          Abu Dhabi, UAE
-        </div>
-    </div>
+          <!-- Collection of nav links and other content for toggling -->
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#section1">HOME</a></li>
+                  <li><a href="#section2">PROJECTS</a></li>
+                  <li><a href="#section3">SKILLS</a></li>
+                  <li><a href="#section4">QUALIFICATIONS</a></li>
+              </ul>
+          </div>
+          </nav>
+      <!-- end of header div -->
   </div>
-</div>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+  <div id="fullpage">
+      <!-- start of fullpage div -->
+        <div class="section" id="section1">
+            <!-- start of 1st section -->
+                <div class="intro">section 1</div>
+            <!-- end of 1st section -->
+        </div>
+        <div class="section" id="section2">
+            <!-- start of 2nd section -->
+                <div class="intro">section 2</div>
+            <!-- end of 2nd section -->
+        </div>
+        <div class="section" id="section3">
+            <!-- start of 3rd section -->
+                <div class="intro">section 3</div>
+            <!-- end of 3rd section -->
+        </div>
+        <div class="section" id="section4">
+            <!-- start of 4th section -->
+                <div class="intro">section 4</div>
+            <!-- end of 4th section -->
+        </div>
+      <!-- end of header div -->
+  </div>
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.slimscroll.min.js"></script>
+  <script src="js/jquery.fullPage.min.js"></script>
+  <script src="js/superjs.js"></script>
+  <script type="type/javascript">
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          anchors: ['section1', 'section2', 'section3','section4'],
+          sectionsColor: ['#fff', '#000', '#fff'],
+          css3: true
+        });
+        $(".navbar-nav li a").click(function(event) {
+          $(".navbar-collapse").collapse('hide');
+        });
+      });
+  </script>
+  <!-- end of scripts -->
 </body>
 </head>
 </html>

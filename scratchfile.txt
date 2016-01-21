@@ -1,0 +1,24 @@
+<div class="bcont">
+  <div class="container center-block">
+    <div class="row center-block text-center">
+        <div class="col-xs-12"><img src="img/super_avatar.png"/ class="img-circle img-responsive center-block" style="height:30%;width:30%;" ></div>
+        <div class="col-xs-12"><h3>Eric Thomas D. Cabigting</h3></div>
+    </div>
+    <div class="row center-block text-center">
+        <div class="col-xs-12 col-md-4">
+          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+          971 56 440 4952
+          </div>
+        <div class="col-xs-12 col-md-4">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          <a href="mailto:ericcabigting@outlook.com?Subject=Suuuuper" target="_blank">
+          ericcabigting@outlook.com
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          Abu Dhabi, UAE
+        </div>
+    </div>
+  </div>
+</div>
