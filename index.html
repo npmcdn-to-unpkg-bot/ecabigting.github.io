@@ -5,7 +5,7 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="web developer, php developer, server administrator, web designer, sql dba, software developer, software engineer, .net developer, .net programmer, portfolio, eric, thomas, d., cabigting, eric thomas, eric thomas d, eric thomas d. cabigting, online web site, online portfolio, online content">
-  <meta name="authoer" content="Eric Thomas D. Cabigting">
+  <meta name="author" content="Eric Thomas D. Cabigting">
   <meta name="description" content="Eric Thomas D. Cabigting software developer of five years. This is my online portfolio. I work as .net developer for different companies, as well as a software engineer in the process. I mainly work with web applications, and now focusing on mobile apps.">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -16,15 +16,6 @@
   <link rel="stylesheet" href="css/superreset.css">
   <link rel="stylesheet" href="css/superstyle.css">
   <!-- end of style sheets -->
-  <script type="type/javascript">
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
-				  anchors: ['firstPage', 'secondPage', '3rdPage'],
-          menu: '#menu',
-          verticalCentered: true,
-        });
-      });
-  </script>
 </head>
 <body>
   <div id="header">
@@ -39,7 +30,7 @@
           </div>
           <!-- Collection of nav links and other content for toggling -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
-              <ul id="menu" class="nav navbar-nav navbar-right">
+              <ul id="myMenu" class="nav navbar-nav navbar-right">
                   <li class="active"><a data-menuanchor="home" href="#home">HOME</a></li>
                   <li><a data-menuanchor="projects" href="#projects">PROJECTS</a></li>
                   <li><a data-menuanchor="skills" href="#skills">SKILLS</a></li>
@@ -53,7 +44,29 @@
       <!-- start of fullpage div -->
         <div class="section" id="pageUno">
             <!-- start of 1st section -->
-                <div class="intro">tae</div>
+                <div class="intro">
+                    <img src="https://pbs.twimg.com/profile_images/643718728757088256/CVbVkyak.jpg" class="img-superavatar center-block img-responsive img-circle" />
+                    <div class="container-fluid">
+                      <div class="row-fluid">
+                        <div class="col-xs-12 col-md-12 theName">Eric Thomas D. Cabigting</div>
+                        <div class="col-xs-12 col-md-12 theJob">Software Specialist</div>
+                      </div>
+                      <div class="row-fluid theContacts">
+                        <div class="col-xs-12 col-md-4">
+                          <span class="glyphicon glyphicon-phone"></span>
+                          <br>971 56 440 4952
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <span class="glyphicon glyphicon-envelope"></span>
+                          <br>ericcabigting@outlook.com
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <span class="glyphicon glyphicon-home"></span>
+                          <br>Abu Dhabi, UAE
+                        </div>
+                      </div>
+                    </div>
+                </div>
             <!-- end of 1st section -->
         </div>
         <div class="section" id="pageDos" >
@@ -75,11 +88,9 @@
   </div>
   <!-- scripts -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.fullPage.js"></script>
+  <script src="js/jquery.fullPage.min.js"></script>
   <script src="js/superjs.js"></script>
-
   <!-- end of scripts -->
 </body>
 </head>
