@@ -8,7 +8,18 @@
   z-index:9;
   text-align:center;
   color: #fff;
+}
 
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index:9;
+  height:50px;
+  background: #333;
+  font-size:12px;
+  padding:20px;
 }
 
 .section {
@@ -99,10 +110,13 @@
 
 @media screen and (max-width: 568px) {
     .theName {
-      font-size:20px;
+      font-size:25px;
     }
     .theContacts  {
-      font-size: 90%;
+      font-size: 12px;
+    }
+    .theJob {
+      font-size: 18px;
     }
 }
 
@@ -111,7 +125,7 @@
  .navbar-nav > li > a:focus {color: #f1f1f1; background-color: #828282;}
 
 @media only screen and (max-width: 766px) {
-.collapsing, .in {background-color: #f7f7f7;}
-.collapsing ul li a, .in ul li a {color: #555!important; hei}
-.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+.collapsing, .in {background-color: #333;}
+.collapsing ul li a, .in ul li a {color: #fff!important; hei}
+.collapsing ul li a:hover, .in ul li a:hover {color: #fff!important;}
 }
