@@ -10,6 +10,7 @@
   color: #fff;
 }
 
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -74,16 +75,19 @@
 
 /*home section styles*/
 .img-superavatar {
-    height: 20%;
-    width: 20%;
+    height: 30%;
+    width: 30%;
     border:3px solid #fff;
 }
 
 .container-fluid {
   max-width: 800px;
   padding: 10px;
-  background-color:rgba(0,0,0,0.9);
   margin-top: 20px;
+}
+
+.personalI {
+  background-color:rgba(0,0,0,0.6);
 }
 
 .theName {
@@ -101,18 +105,63 @@
 .theContacts {
   text-align: center;
   color:#fff;
-  /*text-shadow: 0 2px 0 black;*/
+}
+
+.prjTxtLabel {
+  font-size: 22px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.prjTxtArea {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.prjList > li {
+  font-size: 18px;
+  margin: left;
+  list-style: inside;
+  list-style-position: inside;
+  text-align: left;
+}
+
+.prjTxtArea a:link,
+.prjTxtArea a:visited,
+.prjTxtArea a:hover  {
+  text-decoration: underline;
+  color: #878F9E;
+}
+
+.projectSlide {
+  display:block;
+  margin:0 auto;
+  min-width: 375px;
+  max-width: 80%;
+  height: 100%;
+  padding:30px;
+  font-size:12px;
+  color:#000;
+  background-color:rgba(255,255,255,0.6);
+}
+
+.imgPrj{
+  margin-top:40px;
+}
+
+.txtPrjDesc {
+  margin:20px;
+  text-align: justify;
+}
+
+.imgArea {
+  padding:10px;
 }
 
 
 /*end of home section*/
 
 @media screen and (max-width: 568px) {
-    .img-superavatar {
-      width: 60%;
-      height: 60%;
-    }
-
     .theName {
       font-size:25px;
     }
