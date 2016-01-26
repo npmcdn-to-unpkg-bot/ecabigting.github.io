@@ -173,6 +173,38 @@
     }
 }
 
+.animated {
+  visibility: visible !important;
+}
+
+/*animation settings*/
+#bossPic, #bossTitle, #bossName, #bossContacts,
+#bossPhone, #bossEmail, #bossAddress  {
+  -vendor-animation-duration: 5s;
+  -vendor-animation-delay: 10s;
+  -vendor-animation-iteration-count: 1;
+  visibility: hidden;
+}
+
+.skillsSet {
+  display:block;
+  margin:0 auto;
+  min-width: 375px;
+  max-width: 80%;
+  height: 100%;
+  padding:30px;
+  font-size:12px;
+  color:#fff;
+  background-color:rgba(000,000,000,0.5);
+}
+
+.skillsetBar {
+  border: 2px solid #fff;
+}
+
+
+/*end of animation settings*/
+
  .navbar-nav > li > a, .navbar-default .navbar-brand {color: #f1f1f1;}
  .navbar-nav > li > a:hover {color:#C5C3C3}
  .navbar-nav > li > a:focus {color: #f1f1f1; background-color: #828282;}

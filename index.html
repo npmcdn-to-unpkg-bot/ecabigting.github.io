@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/jquery.fullPage.css" />
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/superreset.css">
   <link rel="stylesheet" href="css/superstyle.css">
   <!-- end of style sheets -->
@@ -31,7 +32,7 @@
           <!-- Collection of nav links and other content for toggling -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
               <ul id="myMenu" class="nav navbar-nav navbar-right">
-                  <li class="active"><a data-menuanchor="home" href="#home">HOME</a></li>
+                  <li class="active"><a id="btnHome" data-menuanchor="home" href="#home">HOME</a></li>
                   <li><a data-menuanchor="projects" href="#projects">PROJECTS</a></li>
                   <li><a data-menuanchor="skills" href="#skills">SKILLS</a></li>
                   <li><a data-menuanchor="qualifications" href="#qualifications">QUALIFICATIONS</a></li>
@@ -45,22 +46,22 @@
         <div class="section" id="pageUno">
             <!-- start of 1st section -->
                 <div class="intro">
-                    <img src="https://pbs.twimg.com/profile_images/643718728757088256/CVbVkyak.jpg" class="img-superavatar center-block img-responsive img-circle" />
-                    <div class="container-fluid personalI">
+                    <img id="bossPic" src="https://pbs.twimg.com/profile_images/643718728757088256/CVbVkyak.jpg" class="img-superavatar center-block img-responsive img-circle" />
+                    <div id="bossContacts" class="container-fluid personalI">
                       <div class="row-fluid">
-                        <div class="col-xs-12 col-md-12 theName">Eric Thomas D. Cabigting</div>
-                        <div class="col-xs-12 col-md-12 theJob">Web Developer</div>
+                        <div id="bossName" class="col-xs-12 col-md-12 theName">Eric Thomas D. Cabigting</div>
+                        <div id="bossTitle" class="col-xs-12 col-md-12 theJob">Web Developer</div>
                       </div>
-                      <div class="row-fluid theContacts">
-                        <div class="col-xs-12 col-md-4">
+                      <div  class="row-fluid theContacts">
+                        <div id="bossPhone" class="col-xs-12 col-md-4">
                           <span class="glyphicon glyphicon-phone"></span>
                           971 56 440 4952
                         </div>
-                        <div class="col-xs-12 col-md-4">
+                        <div id="bossEmail" class="col-xs-12 col-md-4">
                           <span class="glyphicon glyphicon-envelope"></span>
                           ericcabigting@outlook.com
                         </div>
-                        <div class="col-xs-12 col-md-4">
+                        <div id="bossAddress" class="col-xs-12 col-md-4">
                           <span class="glyphicon glyphicon-home"></span>
                           Abu Dhabi, UAE
                         </div>
@@ -230,7 +231,17 @@
         </div>
         <div class="section" id="pageTres">
             <!-- start of 3rd section -->
-                <div class="intro">section 3</div>
+                <div class="intro">
+                  <div class="skillsSet">
+                    <h1>Skill Set</h1>
+                    <hr class="skillsetBar"></hr>
+                      <ul>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    <hr class="skillsetBar"></hr>
+                  </div>
+                </div>
             <!-- end of 3rd section -->
         </div>
         <div class="section" id="pageQuatro">
