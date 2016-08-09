@@ -1,0 +1,40 @@
+/*====================================
+====reset css to my prefer defaulst===
+====================================*/
+* {
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 100%;
+  color:#fff;
+  background: rgba(169,3,41,1);
+  background: -moz-linear-gradient(-45deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  background: linear-gradient(135deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+}
+
+a:link, a:active, a:visited { text-decoration: none; color:#fff;}
+a:hover {color: #999; text-decoration: none; }
+
+h1 {}
+h1 a { }
+h1 a:hover {}
+
+h2 {}
+h2 a {}
+h2 a:hover {}
+
+h3 { vertical-align: middle;}
+h3 a {}
+h3 a:hover {}

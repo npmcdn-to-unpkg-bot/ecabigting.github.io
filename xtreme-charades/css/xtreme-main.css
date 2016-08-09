@@ -1,0 +1,34 @@
+.mainBodyDiv {
+  margin:0 auto;
+  min-width:300px;
+  max-width: 500px;
+}
+
+.wordCont {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 30px;
+  color:#000;
+  overflow:hidden;
+}
+
+.catCont {
+  color:#000;
+}
+
+.showbtn {
+  width:190px;;
+  border-radius: 3px;
+  color:#000;
+  background-color: #fff;
+  height: 30px;
+}
+
+h1.maintitle {
+  min-width:300px;
+  max-width: 500px;
+  text-align: center
+}
